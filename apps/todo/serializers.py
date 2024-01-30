@@ -4,5 +4,5 @@ from apps.todo.models import ToDo
 class ToDoSerializer(serializers.ModelSerializer):
     class Meta:
         model = ToDo 
-        fields = ('id', 'title', 'description', 'completed', 'created')
+        fields = "__all__"
     
